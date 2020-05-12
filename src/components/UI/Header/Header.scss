@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  p {
+    cursor: pointer;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .icon {
+      margin-right: 10px;
+    }
+
+    p {
+      margin-right: 10px;
+    }
+  }
+}

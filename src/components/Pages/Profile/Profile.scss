@@ -1,0 +1,88 @@
+$blue: rgb(0, 168, 197);
+
+.profile {
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .link {
+    font-weight: bold;
+    color: $blue;
+
+    &:visited,
+    &:active {
+      color: $blue;
+    }
+
+    text-decoration: none;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      color: $blue;
+    }
+
+    input {
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 0.1px solid grey;
+      margin-top: 10px;
+    }
+  }
+
+  header {
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .avatar {
+    text-align: center;
+    border: 2px solid red;
+  }
+
+  .left {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .right {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    p {
+      font-weight: bold;
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+
+  input {
+    outline: none;
+  }
+
+  .avatar {
+    margin: 30px 0 30px;
+  }
+
+  .dropdown-content {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+
+    p {
+      margin-right: 10px;
+    }
+  }
+}

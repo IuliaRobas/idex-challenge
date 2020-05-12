@@ -1,0 +1,7 @@
+export const LOG_OUT = "LOG_OUT";
+export const LOG_OUT_ALL_DEVICES = "LOG_OUT_ALL_DEVICES";
+export const CHANGE_PASSWORD = "CHANGE_PASSWORD";
+export const EDIT_PROFILE = "EDIT_PROFILE";
+
+export const SET_APP_LANGUAGE = "SET_APP_LANGUAGE";
+export const SEND_MESSAGE = "SEND_MESSAGE";
